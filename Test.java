@@ -49,7 +49,7 @@ public class Test {
 
         animals.push("Lion");
         animals.push("deer");
-        animals.push("dyuti");
+        animals.push("ranbir kapoor");
         System.out.println("stack: " + animals.peek()); 
         System.out.println("Queue & Linked List: \n" );
         Queue<Integer> queue = new LinkedList<>();
@@ -60,8 +60,8 @@ public class Test {
         queue.offer(1232234);
         System.out.println(queue);
         System.out.println(queue.poll());
-        System.out.println(queue);
-
+        System.out.println(queue );
+        System.out.println("Priority queue: \n" );
 
 
 
