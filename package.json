@@ -1,0 +1,7 @@
+{
+  "name": "java-programs",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "javac UserInputOutput.java && java UserInputOutput"
+  }
+} 
