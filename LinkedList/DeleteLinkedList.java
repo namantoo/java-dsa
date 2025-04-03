@@ -1,5 +1,35 @@
 
 public class DeleteLinkedList {
+    public static void display(Node head){
+        Node temp = head;
+        int count = 0;
+        while(temp != null){
+            count++;
+            System.out.print(temp.data + " ");
+            temp = temp.next;
+        }
+        System.out.println();
+        System.out.println("Count: " + count);
+    }
+    //recursion print
+    public static void displayr(Node head){
+        if(head == null){
+            return;
+        }
+        System.out.print(head.data + " ");
+        displayr(head.next); 
+
+    }
+    public static void displayrr(Node head){
+        if(head == null){
+            return ;
+        }
+       
+        displayrr(head.next); 
+        System.out.print(head.data + " ");
+        
+
+    }
     public static class Node{
 
         int data;
@@ -7,7 +37,6 @@ public class DeleteLinkedList {
 
         Node(int data){
             this.data = data;
-
         }
 
         }
@@ -25,13 +54,12 @@ public class DeleteLinkedList {
         // System.out.println(a.data);
         // System.out.println(a.next.data);
         // System.out.println(c.data);
-       
-        
-        while(temp != null){
-            System.out.print(temp.data+ " ");
-            temp = temp.next;
-        }
+        display(a);
+        displayr(a);
+        System.out.println();
+        displayrr(a);
      
         
     }
 }
+ 
