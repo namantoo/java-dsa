@@ -30,6 +30,7 @@ public class DeleteLinkedList {
         
 
     }
+    //email add
     public static class Node{
 
         int data;
