@@ -32,6 +32,15 @@ public class Implementation {
                 head = temp;
             }
        }
+       void deleteAt(int index){
+        Node temp = head;
+        for(int i = 1; i < index; i++){
+            temp = temp.next;
+        }
+        temp.next = temp.next.next;
+       
+
+       }
        void insertAt(int index, int data){
         Node t = new Node(data);
         Node temp = head;
@@ -91,17 +100,12 @@ public class Implementation {
         ll.insertAtBeginning(6);
 
         ll.display();
+        ll.deleteAt(2);
         System.out.println();
-       System.out.println( ll.size());
-       System.out.println();
-  
-    // ll.insertAt(, 999);
-    ll.display();
-    System.out.println();
-        System.out.println(ll.head.data);
-   
-        System.out.println(ll.tail.data);
-        System.out.println(ll.getAt(2));
+        ll.display();
+
+      
+ 
 
 
     }
