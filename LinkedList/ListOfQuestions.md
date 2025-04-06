@@ -79,4 +79,11 @@ Built a custom `LinkedList` class with:
 
 **Summary:** Found cycle start using slow pointer reset to head.
 
+### 8. [328. Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/description/)
+
+- used odd and even pointers
+- started from linking odd to next, then updated the odd to odd.next
+- initialised even and evenhead(to keep track of first even)
+- even.next = odd.next , even =  even.next;
+
 ---
