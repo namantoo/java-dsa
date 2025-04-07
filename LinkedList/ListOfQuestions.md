@@ -103,6 +103,20 @@ Built a custom `LinkedList` class with:
 ### 11. [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
 
 - hurray!! could reverse a linked list after 4 years of engineering xD
+- follow up: do iteratively
+
+
+### 11. [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)
+
+- Mix of recursion + middle element
+- 
+1 2 3 4 5 
+
+1 2 3 2 1
+
+1 2 3 3 2 1
+
+
 
 
 
