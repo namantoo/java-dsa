@@ -106,16 +106,10 @@ Built a custom `LinkedList` class with:
 - follow up: do iteratively
 
 
-### 11. [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)
+### 12. [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)
 
 - Mix of recursion + middle element
 - 
-1 2 3 4 5 
-
-1 2 3 2 1
-
-1 2 3 3 2 1
-
 
 
 
