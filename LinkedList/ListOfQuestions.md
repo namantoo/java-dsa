@@ -100,5 +100,10 @@ Built a custom `LinkedList` class with:
 - same for even
 - at last we link and return the new ll.
 
+### 11. [206. Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
+
+- hurray!! could reverse a linked list after 4 years of engineering xD
+
+
 
 ---
