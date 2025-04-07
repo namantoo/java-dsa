@@ -86,7 +86,14 @@ Built a custom `LinkedList` class with:
 - initialised even and evenhead(to keep track of first even)
 - even.next = odd.next , even =  even.next;
 
-### 8. [Odd Even Linked List (Here values are odd/even not indeces)](https://leetcode.com/problems/odd-even-linked-list/description/)
+### 9. [Odd Even Linked List (Here values are odd/even not indeces)](https://github.com/namantoo/java-dsa/blob/main/LinkedList/OddEvenVariation.java)
+
+- used a curr pointer to iterate over the linked list
+- if curr val is odd and head and tail are empty we update the same else we point the tail towards the curr val
+- same for even
+- at last we link and return the new ll.
+
+### 10. [83. Remove Duplicates from sorted list](https://leetcode.com/problems/remove-duplicates-from-sorted-list/description/)
 
 - used a curr pointer to iterate over the linked list
 - if curr val is odd and head and tail are empty we update the same else we point the tail towards the curr val
