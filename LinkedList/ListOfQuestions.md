@@ -109,7 +109,20 @@ Built a custom `LinkedList` class with:
 ### 12. [234. Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/description/)
 
 - Mix of recursion + middle element
-- 
+
+
+### 13. [2130. Maximum Twin Sum of a Linked List](https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/description/)
+
+- this was mix of palindrome, figured out the pattern, more or less similar like previous one
+
+### 14. [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)
+
+- Marked to start tomo from this
+
+
+
+
+
 
 
 
