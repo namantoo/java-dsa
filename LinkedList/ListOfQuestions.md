@@ -118,8 +118,17 @@ Built a custom `LinkedList` class with:
 ### 14. [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)
 
 - Marked to start tomo from this
+- this question is sorted its easy, just make a new dummy
 
 
+### 14. [2. Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)
+
+- Marked to start tomo from this
+- this question is sorted its easy, just make a new dummy
+
+
+
+### 15. [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)
 
 
 
