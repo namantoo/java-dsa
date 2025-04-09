@@ -152,4 +152,10 @@ Built a custom `LinkedList` class with:
 # Double Linked List & Circular Linked List
 
 
+# Pending 
+
+- merge sort in ll
+- flatten double linked list
+- maxima and minima
+- revision
 ---

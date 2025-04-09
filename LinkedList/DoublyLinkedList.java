@@ -44,8 +44,59 @@ public class DoublyLinkedList {
         }
         System.out.print("");
     }
-    
+   public static Node insertAtHead(Node head, int x){
+    Node t = new Node(x);
 
+    t.next = head;
+    head.prev = t;
+    head = t;
+
+    return head;
+
+
+   }
+   public static Node insertAtIndex(Node head, int idx, int x) {
+    Node newNode = new Node(x);
+
+    // Inserting at head (index 0)
+    if (idx == 0) {
+        newNode.next = head;
+        if (head != null) head.prev = newNode;
+        return newNode;
+    }
+
+    Node temp = head;
+    for (int i = 0; i < idx - 1 && temp != null; i++) {
+        temp = temp.next;
+    }
+
+    if (temp == null || temp.next == null) {
+        temp.next = newNode;
+        newNode.prev = temp;
+        return head;
+    }
+
+    newNode.next = temp.next;
+    temp.next.prev = newNode;
+    temp.next = newNode;
+    newNode.prev = temp;
+
+    return head;
+}
+
+   public static void insertAtTail(Node head, int x){
+    
+        Node temp = head;
+
+        while(temp.next != null){
+            temp = temp.next;
+        }
+        Node t= new Node(x);
+
+        temp.next = t;
+        t.prev = temp;
+
+   }
     public static void main(String[] args) {
         // 4 5 6 7 8
         Node a = new Node(4);
@@ -71,7 +122,14 @@ public class DoublyLinkedList {
 
         display(a);
         displayTail(e);
-        displayRandom(c);
+        // displayRandom(c);
         
+        Node newHead = insertAtHead(a, 45);
+        display(newHead);
+        insertAtTail(a, 90);
+        display(a);
+        insertAtIndex(a, 3, 342);
+        display(a);
+
     }
 }
