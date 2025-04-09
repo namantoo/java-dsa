@@ -1,5 +1,7 @@
 # Linked List Progress
 
+# Singly Linked List 
+
 ## 1. Custom Implementation (Basics in Java)
 Created `Node` class with `int data` and `Node next`.
 
@@ -127,13 +129,27 @@ Built a custom `LinkedList` class with:
 - this question is sorted its easy, just make a new dummy
 
 
+### 14. [2816. Double a Number Represented as a Linked List](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/description/)
+
+
+
 
 ### 15. [138. Copy List with Random Pointer](https://leetcode.com/problems/copy-list-with-random-pointer/)
 
 
+- approach: ill do in three steps and would avoid hashmap
+- 1. clone each node and insert after original
+- 2. copy random pointers in this step
+- 3. detach
+
+### 16. [2816. Double a Number Represented as a Linked List](https://leetcode.com/problems/double-a-number-represented-as-a-linked-list/description/)
 
 
+- reverse ll
+- add and manage carry 
+- reverse back
 
+# Double Linked List & Circular Linked List
 
 
 ---
