@@ -148,6 +148,15 @@ Built a custom `LinkedList` class with:
 - reverse ll
 - add and manage carry 
 - reverse back
+### 17. [1472. Design Browser History](https://leetcode.com/problems/design-browser-history/submissions/1602015191/)
+
+
+- reverse ll
+- add and manage carry 
+- reverse back
+
+
+
 
 # Double Linked List & Circular Linked List
 
