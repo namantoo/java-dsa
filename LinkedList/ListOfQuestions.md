@@ -19,7 +19,7 @@ Built a custom `LinkedList` class with:
 ## 2. Questions
 
 ### 1. [237. Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/)
-- Understood deletion without access to head.
+- Understood deletion without access t o head.
 - Learned how to overwrite current node’s data with the next node’s.
 
 **Summary:** Deleted node by copying data of the next node.

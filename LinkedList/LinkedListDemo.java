@@ -1,5 +1,4 @@
 public class LinkedListDemo {
-
     // Step 1: Node class (each node has data and a pointer to the next node)
     static class Node {
         int data;
@@ -10,6 +9,7 @@ public class LinkedListDemo {
             this.next = null;
         }
     }
+
 
     // Step 2: LinkedList class (stores multiple nodes)
     static class LinkedList {
@@ -49,7 +49,7 @@ public class LinkedListDemo {
                 current = current.next;
             }
         }
-
+         
         public void printList() {
             Node temp = head;
             while (temp != null) {

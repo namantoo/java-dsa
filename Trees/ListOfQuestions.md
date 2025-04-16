@@ -45,10 +45,12 @@
 
 - Every node to the left of the node is smaller and every node to the right, has a greater value
 
-### AVL Trees
+### 4.  AVL Trees
 
 - Type of BST's
 - But these are balanced 
+
+---
 
 ### Applications
 

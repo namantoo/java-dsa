@@ -8,6 +8,7 @@ public class DeleteLinkedList {
             System.out.print(temp.data + " ");
             temp = temp.next;
         }
+
         System.out.println();
         System.out.println("Count: " + count);
     }
@@ -20,6 +21,8 @@ public class DeleteLinkedList {
         displayr(head.next); 
 
     }
+
+    
     public static void displayrr(Node head){
         if(head == null){
             return ;
@@ -30,6 +33,7 @@ public class DeleteLinkedList {
         
 
     }
+
     //email add
     public static class Node{
 
