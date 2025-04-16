@@ -2,7 +2,7 @@
 
 # Basics
 
-## 1. Starting (Basics in Java)
+## 1. Fundamentals
 
 ### Terminology
 
@@ -62,3 +62,27 @@
 - Easy to implement
 
 ---
+## 1. Starting (Basics in Java)
+
+
+### [Basic implementations](https://github.com/namantoo/java-dsa/blob/main/Trees/implementation.java)
+
+Created `Node` class with `int val` and `Node right` and `Node left`.
+- Basic displaying
+
+### [Finding Size, Max, Sum & Height](https://github.com/namantoo/java-dsa/blob/main/Trees/sizeMaxSumHeight.java)
+
+
+- Made functions like `size()` , `sum()`, `maxNode()`, `height()`
+
+### [Pre, In & Post Order traversals](https://github.com/namantoo/java-dsa/blob/main/Trees/preInPost.java)
+
+
+- Made functions like `preorder()` , `postorder()`, `inorder()`
+- Preorder – root, left, right
+- Inorder - left, root, right
+- Postorder - left, right, root
+- These are depth-first traversal types
+
+
+
