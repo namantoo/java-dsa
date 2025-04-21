@@ -1,54 +1,68 @@
 
 // this is a pre order traversal
-
 public class implementation {
-    public static class Node{
+    public static class Node {
         int val;
         Node left;
         Node right;
-        
-        Node(int val){
+
+        Node(int val) {
             this.val = val;
         }
     }
- 
-    public static void display(Node root){
-        if(root == null){
+
+    public static void display(Node root) {
+        if (root == null) {
             return;
         }
         System.out.print(root.val + "->");
-        if(root.left != null){
+        if (root.left != null) {
             System.out.print(root.left.val + ",");
         }
-        if(root.right != null){
-        System.out.print(root.right.val);
+        if (root.right != null) {
+            System.out.print(root.right.val);
         }
         System.out.println("");
         display(root.left);
         display(root.right);
     }
+
+    public static void nthLevel(Node root, int level){
+        
+        if (root == null) {
+            return;
+        }
+
+        if (level == 1) {
+            System.out.print(root.val + " ");
+            return;
+        }
+
+
+        nthLevel(root.left, level - 1);
+        nthLevel(root.right, level - 1);
+    }
+
     public static void main(String[] args) {
         Node root = new Node(2);
         Node a = new Node(4);
         Node b = new Node(10);
-
         root.left = a;
         root.right = b;
-
-        Node c= new Node(6);
+        Node c = new Node(6);
         Node d = new Node(5);
-
         a.left = c;
         a.right = d;
-
         Node e = new Node(11);
-
         b.right = e;
-
-        display(root);
-
-
+        int level = 3;
+        for(int i = 1; i <= level ; i++){
+            nthLevel(root, i);
+            System.out.println();
+        }
 
     }
-    
+
+
+
 }
