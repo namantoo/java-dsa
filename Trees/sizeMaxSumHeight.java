@@ -93,16 +93,18 @@ public class sizeMaxSumHeight {
         b.right = e;
         e.left = f;
 
-        display(root);  
-        System.out.println("");
-        preorder(root);
-        System.out.println(size);
-        System.out.println(size(root));
-        System.out.println(sum(root));
+        // display(root);  
+        // System.out.println("");
+        // preorder(root);
+        // System.out.println(size);
+        // System.out.println(size(root));
+        // System.out.println(sum(root));
         System.out.println(maxNode(root));
         System.out.println(height(root));
     }
     
    
     
+
+
 }
