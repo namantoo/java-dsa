@@ -1,4 +1,4 @@
-
+import java.util.*;
 
 
 
@@ -39,6 +39,37 @@ public class preInPost {
         System.out.println(root.val);
 
     }
+    public static void nthLevel(Node root, int level){
+        
+        if (root == null) {
+            return;
+        }
+
+        if (level == 1) {
+            System.out.print(root.val + " ");
+            return;
+        }
+
+
+        nthLevel(root.left, level - 1);
+        nthLevel(root.right, level - 1);
+    }
+    public static void bfs(Node root){
+        Queue<Node> q =  new LinkedList<>();
+        q.add(root);
+        while(q.size() > 0){
+            Node temp = q.peek();
+            if(temp.left != null){
+                q.add(temp.left);
+            }
+            if(temp.right != null){
+                q.add(temp.right);
+            }
+            System.out.print(temp.val + " ");
+            q.remove();
+        }
+
+    }
     public static void main(String[] args) {
         Node root = new Node(2);
         Node a = new Node(4);
@@ -60,7 +91,9 @@ public class preInPost {
         b.right = e;
         e.left = f;
 
-        inorder(root);
+        // inorder(root);
+        // nthLevel(root, 5); '
+        bfs(root);
      
     }
     
