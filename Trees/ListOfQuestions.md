@@ -115,4 +115,16 @@ Created `Node` class with `int val` and `Node right` and `Node left`.
 - Check for null checks, if both root are null return true if either null then return false
 - After that call for recursion for both lefts and right respectively, and if both true then true will be returned, thanks!
 
+### 4. [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/description/)
+
+- Simple question taking no notes
+
+
+### 4. [236. Binary Tree Paths](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)
+
+- Simple question taking no notes
+- Athough to mention this follows root to node path (imp as concept)
+
+
+
 
